@@ -7,6 +7,6 @@ import pl.p.lodz.zzpj2020.generics.pierwsze.Step;
 
 public class Main {
     public static void main (String[] args) {
-        
+
     }
 }
