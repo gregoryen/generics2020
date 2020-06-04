@@ -11,7 +11,7 @@ public class Main {
         dictionary.add(new MusicTerm("Akordeon"), new Description("Instrument, Takie cos do niczego nie podobne"));
         dictionary_2.add(new LawTerm("Wykroczenie"), new Description("Czynnosc karana mandatem ale nie jakos bardzo powazna sprawa ..."));
         dictionary_2.add(new LawTerm("Kara"), new Description("No jak cos zrobisz nie tak to konsekwencje byc musza"));
-        dictionary_2.add(new LiteratureTerm("Onomatopeja"), new Description("Wyraz nasladujacy dziwek"));
+        dictionary_2.add(new LiteratureTerm("Onomatopeja"), new Description("środek stylistyczny używany przez polskich raperów"));
 
         DictionarySerivce dictionarySerivce = new DictionarySerivce(dictionary);
         System.out.println(dictionarySerivce.getAllTerms());
